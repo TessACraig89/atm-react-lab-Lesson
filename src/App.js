@@ -4,6 +4,12 @@ import logo from './ga.png';
 import Account from './Account';
 
 class App extends Component {
+  constructor(props){
+    super(props)
+      this.state = {
+        balance: 0
+      }
+  }
   render() {
     return (
       <div id="content">
